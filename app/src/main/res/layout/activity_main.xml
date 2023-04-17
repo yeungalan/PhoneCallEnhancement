@@ -15,4 +15,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/dialScreenBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dial Screen"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <Button
+        android:id="@+id/dialScreenBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRequestPermission"
+        android:text="Permission"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="489dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
